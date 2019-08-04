@@ -1,0 +1,78 @@
+body{
+	background-color: #C8E7EC;
+	font-family: arial, helvetica, sans-serif;
+}
+
+
+button#add{
+	background-color: #D6D6D6;
+	color: #4C4C4C;
+	border: none;
+	padding: 10px;
+}
+button#removeAll{
+	background-color: #D6D6D6;
+	border: none;
+	color: #4C4C4C;
+	padding: 10px;
+
+}
+
+ul{
+	list-style: none;
+	float: left;
+
+}
+.container{
+	padding: 100px 0px 100px 0px;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.row{
+	width: 100%;
+	display: flex;
+}
+
+.add-col{
+	text-align: center;
+	width: 45%;
+margin: 10px;
+background-color: #4C4C4C;
+color: #D6D6D6;
+height: 300px;
+}
+
+
+.todo-col{
+	text-align: left;
+
+	width: 45%;
+	background-color: #D6D6D6;
+	color: #4C4C4C;
+	min-height: 300px;
+
+	margin: 10px;
+}
+.todo-col h1{
+	text-align: center;
+}
+
+input{
+	height: 30px;
+	margin-bottom: 10px;
+}
+
+
+button.removeMe{
+	border: none;
+	background-color: white;
+	border-radius: 100%;
+	
+}
+
+
+li{
+	    
+		display: block;
+}

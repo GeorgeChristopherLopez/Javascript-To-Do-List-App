@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>To Do</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body>
+	<div class="container">
+<div class="row">
+	<div class="todo-col">
+		<h1>To Do</h1>
+		<ul id="list">
+			<li><button class="removeMe" onclick="removeMe(this);">X</button> Learn DOM Manipulation </li>
+			<li><button class="removeMe" onclick="removeMe(this);">X</button> Create Completed Tasks </li>
+			<li><button class="removeMe" onclick="removeMe(this);">X</button> Styling </li>
+		</ul>
+
+	</div>
+	<div class="add-col">	
+		<h1>Add New Task</h1>
+	
+<input type="text" id="text" placeholder="New Task   ">
+<div class="buttons">
+<button id="add">Add</button>
+<button id="removeAll">Clear</button>
+</div>
+	</div>
+</div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
